@@ -5,5 +5,15 @@
   "dependencies": {
     "daisyui": "^2.46.1",
     "flowbite": "^1.6.0"
-  }
+  },
+  "name": "qr-code-component-main",
+  "description": "![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/css/final.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
